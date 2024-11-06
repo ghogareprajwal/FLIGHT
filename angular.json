@@ -23,13 +23,18 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "https://e7.pngegg.com/pngimages/599/258/png-clipart-computer-icons-location-symbol-blue-symbol-miscellaneous-blue-thumbnail.png",
+                "output": "leaflet/"
               }
             ],
             "styles": [
-              "src/styles.css"
+              "@angular/material/prebuilt-themes/magenta-violet.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+        
+              "src/styles.css",
+              "./node_modules/leaflet/dist/leaflet.css"
             ],
-            "scripts": []
+            "scripts": [ "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"]
           },
           "configurations": {
             "production": {
@@ -85,6 +90,7 @@
               }
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/magenta-violet.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -92,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "9a88609b-b0c0-440e-a2aa-839d6e3fd603"
   }
 }

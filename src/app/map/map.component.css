@@ -1,0 +1,74 @@
+.container-fluid {
+  width: 100%;
+  padding: 0;
+
+}
+
+
+
+#currentLocationBtn {
+  position: absolute;
+  top: 75px;
+
+  left: 10px;
+  /* Move the button to the right side */
+  z-index: 1000;
+  /* High z-index to ensure it appears on top of other elements */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 3px;
+  cursor: pointer;
+}
+
+#showFlightsIcon {
+  position: absolute;
+  top: 114px;
+  left: 10px;
+  /* Move the button to the right side */
+  z-index: 1000;
+  /* High z-index to ensure it appears on top of other elements */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 3px;
+  cursor: pointer;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.custom-flight-icon {
+  width: 20px;
+  /* Width of the icon */
+  height: 20px;
+  /* Height of the icon */
+  display: inline-block;
+  /* Ensures proper rendering */
+}
+
+.custom-flight-icon svg {
+  width: 100%;
+  /* Ensures the SVG scales with the icon size */
+  height: 100%;
+  /* Ensures the SVG scales with the icon size */
+}
+
+.custom-flight-icon svg image {
+  width: 100%;
+  /* Ensures the image scales with the SVG size */
+  height: 100%;
+  /* Ensures the image scales with the SVG size */
+  display: block;
+  /* Removes extra space below the image */
+}
+
