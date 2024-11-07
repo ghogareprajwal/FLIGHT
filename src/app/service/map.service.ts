@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { HttpClient,HttpErrorResponse } from '@angular/common/http';
-import * as L from 'leaflet';
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs';
 
@@ -10,13 +9,7 @@ import { catchError } from 'rxjs';
   providedIn: 'root'
 })
 export class MapService {
-  //baseUrl: string="https://opensky-network.org/api/states/all";
-  
-  baseUrl: string="http://localhost:5000/api/india-flights";
-   private cache: any = null;
-   private cacheTimestamp: number = 0;
-   private cacheDuration: number = 60000;
-
+  baseUrl: string="https://opensky-network.org/api/states/all";
 
   constructor(private http:HttpClient) { }
 

@@ -6,23 +6,11 @@
 
 
 
-#currentLocationBtn {
-  position: absolute;
-  top: 75px;
 
-  left: 10px;
-  /* Move the button to the right side */
-  z-index: 1000;
-  /* High z-index to ensure it appears on top of other elements */
-  background-color: #fff;
-  border: 1px solid #ccc;
-  padding: 3px;
-  cursor: pointer;
-}
 
 #showFlightsIcon {
   position: absolute;
-  top: 114px;
+  top: 75px;
   left: 10px;
   /* Move the button to the right side */
   z-index: 1000;
